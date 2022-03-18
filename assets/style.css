@@ -1,0 +1,100 @@
+body{
+    margin: 0 !important;
+}
+
+#nav-head{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#input-header{
+    width: 500px;
+}
+
+#input-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+}
+
+#form{
+    width: 300px;
+}
+
+#forecast{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+aside{
+    top: 71.969px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    margin: 0;
+    z-index: 0;
+}
+
+#aside-title{
+    text-align: center;
+    margin-top: 20px;
+}
+#history{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+#form{
+    outline: none;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+button{
+    width: 200px;
+    padding: 2px 20px 2px 20px;
+}
+
+#display{
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+#forecast-container{
+    display: flex;
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#forecast-title{
+    align-self: center;
+    margin-bottom: 40px;
+}
+
+#submitBtn{
+    width: fit-content;
+}
